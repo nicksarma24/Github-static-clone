@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+
+<head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+      <title>GitHub</title>
+      <style media="screen">
+
+      html{ font-size: 62.5%;}
+.buton{
+  background-color: green;
+  margin:auto;border: 0.08rem solid;
+border-color: black;
+margin-left:30%;
+}
+
+.btn{
+    color: white !important;
+    border-color: #24292f !important;
+}
+.btn:hover {
+    background-color: white;
+    color: #212529!important;
+}
+.section1{
+    background-color: #2a3138;
+
+}
+#text1{
+    font-size: 1.6rem !important;
+    font-family: 'candara'  !important;
+    color: white;
+}
+#heading1{
+    font-size: 4rem !important;
+}
+#form1{
+    background-color: white;
+    color: black;
+}
+
+#text2{
+    font-family: 'candara', sans-serif  !important;
+    color: black  !important;
+    text-align: center;
+    height: 10%;
+}
+#btnt{
+    border-color: black  !important;
+    border: 0.2rem  solid;
+    width:10rem;
+    margin-left: 40%;
+    color: !important;
+}
+
+#btnt:hover{
+    background-color:blue !important;
+    color: white  !important;
+}
+
+
+.hello{width: 3.5rem;
+height: 3.5rem;
+float: left;
+border-radius: 50%;
+background-color: black;
+color: red;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1.4rem 1.6rem;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 786px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+  }
+  .nik{display: none;}
+}
+
+
+  @media screen and (max-width: 998px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+
+  }
+
+  @media screen and (max-width: 998px) {
+    .topnav.responsive {position: relative;}
+
+    .topnav.responsive .icon {
+      position: absolute;
+    }
+    }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+.topnav a.active {
+  background-color:;
+  color: white;
+}
+}
+.buton{border-radius:0.8rem;
+background-color:lawngreen;
+
+cursor:pointer;
+
+}
+
+
+.buton{width: 17rem;
+height: 2rem;
+  border: 0.7rem solid dashed ;
+border-radius: 0%;
+float:horizontal;
+
+} @media screen and (max-width:62rem){
+  #search{ display: none;}
+}  </style>
+</head>
+<body><div class="topnav" id="myTopnav">
+  <a class="active"><button class="hello">
+    <i class="fab fa-github"  style="font-size:2.1rem;"></i>
+  </button></a>
+  <a  href="#explore">Explore</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#Marketplace">Marketplace</a>
+  <a href="#features">Features</a><a>
+  <form id="form" role="search">
+  <input type="search" id="search" name="q"
+   placeholder="Search GitHub" class="sear"></form></a>
+   <a><button type="button" name="button" style="background-color:black;color:white;" >
+   Sign in
+ </button></a><a>  <button type="button" name="button" style="background-color:black;color:white;">
+Sign up
+   </button></a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+    <section class="section1">
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="colspan-6" id="text1">
+                    <br>
+                    <div class="div1">
+                    <h1 id="heading1"><b>Built for Developers</b></h1>
+                    GitHub is a development platform inspired by the way you work. From <b>Open source</b> to <b>business</b>
+                    you can host and review code manage projects and build sofware alongside millions of other
+                    developers</div>
+                </div>
+                <div  class="nik" id="form1">
+                  <body style="background-color: #404040">
+                <form class="nikhil" action="index.html" method="post"><br>
+                <label for="username" style=>Username</label><br>
+                <input type="text" id="username" name="username" value="" placeholder=" Pick a username" cursor="pointer" style="width:100%" ><br><br>
+                <label for="username" style=>Email</label><br>
+                <input type="email" id="Email" name="email" value="" placeholder="for example: dhdgfhdgfh@gmail.com" c ursor="pointer"style="width:100%"  required><br><br>
+                <label for="password" style=>Password</label><br>
+                <input type="password" id="password" name="password" value="" placeholder=" create a password" style="width:100%"  cursor="pointer"><br>
+                use  a strong password <br><br>
+                <button class="buton" type="button" name="button">
+                Sign up for Github
+                </button>
+                <br>by clicking you accept
+                <a href="dfjhdhfjh">*terms and conditions*</a> and <a href="#">privacy policy</a></form>
+
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
+    <br>
+    <br>
+    <section id="text2" style="height:10%;">
+        <h3 ><b>GitHub for teams</b></h3>
+        <h1><b>A better way to work together</b></h1>
+        <p>GitHub brings teams together to work through problems,move ideas forward and learn from each other along the way</p>
+        <div type="button" id = "btnt" style="background-color:white;height:3rem;width:9rem;" ><font style="font-size:1.07rem">Sign Up your team</font></div>
+    </section>
+</body>
+
+</html>
