@@ -56,7 +56,7 @@ margin-left:30%;
     border: 0.2rem  solid;
     width:10rem;
     margin-left: 40%;
-    color: !important;
+    color:blue !important;
 }
 
 #btnt:hover{
@@ -70,7 +70,7 @@ height: 3.5rem;
 float: left;
 border-radius: 50%;
 background-color: black;
-color: red;
+color: white;
 }
 
 .topnav {
@@ -105,14 +105,13 @@ color: red;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 786px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
+    right: 0;
+    top: 0;
   }
-  .nik{display: none;}
-}
-
 
   @media screen and (max-width: 998px) {
     .topnav a:not(:first-child) {display: none;}
@@ -128,6 +127,8 @@ color: red;
 
     .topnav.responsive .icon {
       position: absolute;
+      right: 0;
+      top: 0;
     }
     }
   .topnav.responsive a {
@@ -180,6 +181,7 @@ Sign up
     <i class="fa fa-bars"></i>
   </a>
 </div>
+
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
